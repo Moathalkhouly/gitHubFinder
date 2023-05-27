@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    list-style-type: none;
+  }
+  
+  
+  
+  
+  nav {
+    display: flex;
+    /* width: 100vw; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: #24292f;
+    color: white;
+    height: 9vh;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-list {
+    display: flex;
+    width: 83%;
+    align-items: center;
+  }
+  .nav-ul {
+    display: flex;
+    list-style: none;
+    width: 45%;
+    justify-content: space-around;
+  }
+  ul.second {
+    display: flex;
+    list-style: none;
+    width: 35%;
+    justify-content: space-around;
+    margin-left: 28%;
+    margin-top: 2.7%;
+    padding-bottom: 10px;
+  }
+
+  
+  input {
+    color: #ffffff;
+    outline: white;
+    border: none;
+    width:30%;
+    background-color: rgb(0 83 144);
+  }
+ 
+  
+  .cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  #img1 {
+    border-radius: 50%;
+  }
+  /* nav end*/
+
+
+
+
+  /* num section*/
+  .aside{
+    margin: 5rem 12rem;
+    display:flex ;
+    justify-content: space-between;
+  }
+  
+  .picture img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-left: 3.5rem;
+    border: red 7px solid;
+   
+  }
+  .picture2 img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-left: 3.5rem;
+    border: green 7px solid;
+   
+  }
+  
+  .p-icon {
+    margin-left: 5px;
+  }
+  #following2, #follower2, #following, #follower,
+   #h4,#h41 {
+    font-size: large;
+    
+    background-color: rgb(0 83 144);
+    width: 100%;
+   height: 2rem;
+   color: #ffffff;
+padding-left: 0.5rem;
+   padding-top:.8rem ;
+  margin-top: 1px;
+  border-radius: 10px;
+  }
+
+  #num,#num0 {
+    margin-left: 16rem;
+  }
+  
+
+  #num2,#num1 {
+    margin-left: 17.49rem;
+  }
+  
+
+  
+#img-between img{
+    width: 15rem;
+    border-radius: 10px;
+}
+  
+.search0,.search1{
+   background-color: rgb(0 83 144);
+    border: none;
+    width: 77%;
+  }
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(0 83 144);
+    width: 100.7%;
+    border-radius: 5px;
+    height: 1.7rem;
+    border: 1px rgba(255, 255, 255, 0.75) solid;
+    margin-bottom: 0.5rem;
+  }
+#search2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(0 83 144);
+    width: 100.7%;
+    border-radius: 5px;
+    height: 1.7rem;
+    border: 1px rgba(255, 255, 255, 0.75) solid;
+    margin-bottom: 0.5rem;
+  }
+  
+  /*section-num end*/
+  
+  
+  /*footer start*/
+  footer {
+      margin-top: 4rem;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      gap: 5rem;
+    
+    padding:1.3rem;
+   
+  }
+  .footer-logo{
+      gap: .5rem;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  
+  footer ul {
+    display: flex;
+    
+    gap: 1rem;
+  }
+  
+  
+
+
+
+  @media screen and (max-width:1024px) {
+
+
+    .aside{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      
+    }
+    #search,#search2,#h41 {
+      width: 40vh;
+      margin-left: 8rem;
+    }
+    #img ,#img2{
+      margin-left: 15rem;
+    }
+    #search,#search2,#h41 {
+      width:40vw;
+      margin-left: 13rem;
+    }
+    
+    .follow{
+      width: 40vw;
+      margin-left: 13rem;
+    }
+    #h4{
+      width: 40vw;
+      margin-left: 13rem;
+    }
+
+    #img-between img{
+      padding:3rem 15rem ;
+    }
+    .nav-ul{
+      width: 97%;
+    }
+    footer{
+      gap: 1rem;
+    }
+  }
+
+
+
+
+  @media screen and (max-width:600px) {
+
+    #img ,#img2{
+      margin-left: 5rem;
+    }
+
+nav{
+  width: 106%;
+}
+    .aside{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      
+    }
+    ul.second{
+      display: none;
+    }
+    .nav-ul{
+      display: none;
+    }
+    .nav-list{
+      justify-content: center;
+    }
+    #search{
+      width: 80%;
+    }
+    .aside {
+      display: flex;
+      width: 21%;
+  }
+  .octicon-octicon{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+  .cart{
+    display: none;
+  }
+  .notificiation{
+    display: none;
+  }
+  #search,#search2,#h41 {
+    width: 34vh;
+    margin-left: 2rem;
+  }
+  #h4{
+    width: 34vh;
+    margin-left: 2rem;
+  }
+  .follow{
+    width: 34vh;
+    margin-left: 2rem;
+  }
+  #img-between img{
+    padding: 5rem;
+  }
+}
+
+  

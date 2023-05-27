@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/900px-Octicons-mark-github.svg.png?20180806170715"
+      type="image/icon type"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.0min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!--nav start-->
+      <nav>
+        <div class="logo" style="padding: 5px;"><i class="fa-brands fa-github fa-2xl"></i></div>
+        <div class="nav-list">
+          <div id="search">
+            <svg
+             id="serch-btn"
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon octicon-search"
+            >
+              <path
+                fill="#979A9C"
+                d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"
+              ></path>
+            </svg>
+
+            <input type="search" id="btn" placeholder="search or jump to..." />
+
+            <svg
+            
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="20"
+              aria-hidden="true"
+              class="mr-1"
+            >
+              <path
+                fill="none"
+                stroke="#979A9C"
+                opacity=".4"
+                d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"
+              ></path>
+              <path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path>
+            </svg>
+          </div>
+          <ul class="nav-ul">
+            <li>Pull requests</li>
+            <li>Issues</li>
+            <li>Codespaces</li>
+            <li>Marketplace</li>
+            <li>Explore</li>
+            <li><a href="index1.html">comparison</a> </li>
+          </ul>
+        </div>
+        <div class="notificiation">
+          <svg
+  
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="16"
+            data-view-component="true"
+            class="octicon-octicon"
+          >
+            <path
+              fill="white"
+              d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z"
+            ></path>
+          </svg>
+        </div>
+
+        <div class="cart">
+          <summary
+            class="Header-link"
+            aria-label="Create new…"
+            data-analytics-event='{"category":"Header","action":"create new","label":"icon:add"}'
+            aria-haspopup="menu"
+            role="button"
+          >
+            <svg
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon-octicon"
+            >
+              <path
+                fill="white"
+                d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 0 1 0 1.5H8.5v4.25a.75.75 0 0 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2Z"
+              ></path>
+            </svg>
+            <span class="dropdown-caret"></span>
+          </summary>
+          <i class="octicon-octicon"></i>
+        </div>
+
+        <summary
+          class="Header-link"
+          aria-label="View profile and more"
+          data-analytics-event='{"category":"Header","action":"show menu","label":"icon:avatar"}'
+          aria-haspopup="menu"
+          role="button"
+        >
+          <img
+            id="img1"
+            src="https://avatars.githubusercontent.com/u/127291046?s=40&amp;v=4"
+            alt="@Moathalkhouly"
+            size="20"
+            height="30"
+            width="30"
+            data-view-component="true"
+            class="avatar avatar-small circle"
+            style="padding: 8px;"
+          />
+          <span
+            class="unread-indicator js-feature-preview-indicator"
+            style="top: 1px"
+          ></span>
+          <span class="dropdown-caret"></span>
+        </summary>
+      </nav>
+      <!--nav end-->
+      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+      <ul class="second">
+        <li class="one">
+          <svg
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="16"
+            data-view-component="true"
+            class="octicon octicon-book UnderlineNav-octicon hide-sm"
+          >
+            <path
+              d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"
+            ></path>
+          </svg>
+          <p class="p-icon">Overview</p>
+        </li>
+        <li class="one">
+          <svg
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="16"
+            data-view-component="true"
+            class="octicon octicon-num UnderlineNav-octicon hide-sm"
+          >
+            <path
+              d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
+            ></path>
+          </svg>
+          <p class="p-icon">Numsitories</p>
+        </li>
+        <li class="one">
+          <svg
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="16"
+            data-view-component="true"
+            class="octicon octicon-table UnderlineNav-octicon hide-sm"
+          >
+            <path
+              d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"
+            ></path>
+          </svg>
+          <p class="p-icon">Project</p>
+        </li>
+
+        <li class="one">
+          <svg
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="16"
+            data-view-component="true"
+            class="octicon octicon-package UnderlineNav-octicon hide-sm"
+          >
+            <path
+              d="m8.878.392 5.25 3.045c.54.314.872.89.872 1.514v6.098a1.75 1.75 0 0 1-.872 1.514l-5.25 3.045a1.75 1.75 0 0 1-1.756 0l-5.25-3.045A1.75 1.75 0 0 1 1 11.049V4.951c0-.624.332-1.201.872-1.514L7.122.392a1.75 1.75 0 0 1 1.756 0ZM7.875 1.69l-4.63 2.685L8 7.133l4.755-2.758-4.63-2.685a.248.248 0 0 0-.25 0ZM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432Zm6.25 8.271 4.625-2.683a.25.25 0 0 0 .125-.216V5.677L8.75 8.432Z"
+            ></path>
+          </svg>
+          <p class="p-icon">Packages</p>
+        </li>
+        <li class="one">
+          <svg
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="16"
+            data-view-component="true"
+            class="octicon octicon-star UnderlineNav-octicon hide-sm"
+          >
+            <path
+              d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"
+            ></path>
+          </svg>
+          <p class="p-icon">stars</p>
+        </li>
+      </ul>
+      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+      <hr />
+      <!-- num-section start-->
+      <div class="num-section">
+        <div class="aside">
+          <div class="picture">
+            <img
+              id="img"
+              src="245462587_4398226860256280_4260501543163067506_n.jpg"
+              alt=""
+            />
+            <h4 id="h4">Moathalkhouly</h4>
+            <button>Edit Profile</button>
+            <div class="follow">
+            <p id="follower"><span id="num"></span> follower</p>
+            <p id="following"><span id="num2"></span> following</p>
+        </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="repo-headers">
+            <p>Popular repositories</p>
+            <p>customize pins</p>
+          </div>
+<ul class="cards" id="cards-container">
+          <!-- <li class="card">
+            <div class="card-details">
+                <p class="card-p">project</p>
+                <div class="type-language">
+                <div class="sty"></div>
+                <p  class="lang" >HTML</p>
+              </div>
+            </div>
+            <p>public</p>
+        </li>
+          <li class="card">
+            <div class="card-details">
+                <p class="card-p">project</p>
+                <div class="type-language">
+                <div class="sty"></div>
+                <p class="lang"> HTML</p>
+            </div>
+            </div>
+            <p>public</p>
+        </li>
+          <li class="card">
+            <div class="card-details">
+                <p class="card-p">project</p>
+                <div class="type-language">
+                <div class="sty"></div>
+                <p  class="lang"> HTML</p>
+                </div>
+            </div>
+            <p>public</p>
+        </li>
+          <li class="card">
+            <div class="card-details">
+                <p class="card-p">project</p>
+                <div class="type-language">
+                <div class="sty"></div>
+                <p  class="lang">HTML</p>
+                </div>
+            </div>
+            <p>public</p>
+        </li>
+          <li class="card">
+            <div class="card-details">
+                <p class="card-p">project</p>
+                <div class="type-language">
+                <div class="sty"></div>
+                <p  class="lang"> HTML</p>
+                </div>
+            </div>
+            <p>public</p>
+        </li>
+          <li class="card"> -->
+            <!-- <div class="card-details">
+                <p class="card-p">project</p>
+                <div class="type-language">
+                <div class="sty"></div>
+                <p  class="lang">HTML</p>
+                </div>
+            </div>
+            <p>public</p>
+        </li> -->
+    </ul>
+        </div>
+      </div>
+      <!-- num-section end-->
+      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer start-->
+      <footer>
+        <div class="footer-logo">
+          <svg
+            aria-hidden="true"
+            height="24"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="24"
+            data-view-component="true"
+            class="octicon octicon-mark-github"
+          >
+            <path
+              d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+            ></path>
+          </svg>
+          <div>© 2023 GitHub, Inc.</div>
+        </div>
+
+        <ul>
+          <li>Terms</li>
+          <li>Privacy</li>
+          <li>Security</li>
+          <li>Status</li>
+          <li>Docs</li>
+          <li>Contact </li>
+          <li>Priicing</li>
+          <li>API</li>
+          <li>Trainig</li>
+          <li>Blog</li>
+          <li>About</li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+<!-- <div class="right">
+    <p>Popular numsitories</p>
+    <div class="two-card">
+      <div class="one-card">
+        <div class="card">
+          <div class="card-btn">
+            <div>name project</div>
+            <div></div>
+          </div>
+
+
+          <div class="btn-html">HTML</div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-btn">
+            <div>name project</div>
+            <div></div>
+          </div>
+          <div class="btn-html">HTML</div>
+        </div>
+
+        <div class="card">
+          <div class="card-btn">
+            <div>name project</div>
+            <div></div>
+          </div>
+          <div class="btn-html">HTML</div>
+        </div>
+      </div>
+
+      <div class="one-card">
+        <div class="card">
+          <div class="card-btn">
+            <div>name project</div>
+            <div></div>
+          </div>
+          <div class="btn-html">HTML</div>
+        </div>
+        <div class="card">
+          <div class="card-btn">
+            <div>name project</div>
+            <div></div>
+          </div>
+          <div class="btn-html">HTML</div>
+        </div>
+        <div class="card">
+          <div class="card-btn">
+            <div>name project</div>
+            <div></div>
+          </div>
+          <div class="btn-html">HTML</div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+  <!-- 1- create ul cards
+
+  in for
+
+  2- create li
+
+  3- class card
+
+  4- append card to cards ul 
+
+  5- create div 
+  6- create calss card-details
+  7- appendf card to li 
+  8- create p => class card-p
+  9- create div => type-language
+  10-create div => class sty
+  11- create p => calss lang
+  12- append 8,9,10,11 to card-details
+  
+
+
+
+
+
+
+
+
+  <li class="card">
+    <div class="card-details">
+        <p class="card-p">project</p>
+        <div class="type-language">
+        <div class="sty"></div>
+        <p  class="lang" >HTML</p>
+      </div>
+    </div>
+    <p>public</p>
+</li>
+
+
+
+x = cards
+x.innerHyml += <li class="card">
+  <div class="card-details">
+      <p class="card-p">project</p>
+      <div class="type-language">
+      <div class="sty"></div>
+      <p  class="lang" >HTML</p>
+    </div>
+  </div>
+  <p>public</p>
+</li> -->

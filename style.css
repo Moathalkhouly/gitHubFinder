@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none; 
+  list-style-type: none; 
+}
+
+
+
+
+nav {
+  display: flex;
+  /* width: 100vw; */
+  justify-content: space-around;
+  align-items: center;
+  background-color: #24292f;
+  color: white;
+  height: 9vh;
+  margin: 0;
+  padding: 0;
+}
+.nav-list {
+  display: flex;
+  width: 83%;
+  align-items: center;
+}
+.nav-ul {
+  display: flex;
+  list-style: none;
+  width: 45%;
+  justify-content: space-around;
+}
+ul.second {
+  display: flex;
+  list-style: none;
+  width: 35%;
+  justify-content: space-around;
+  margin-left: 28%;
+  margin-top: 2.7%;
+  padding-bottom: 10px;
+}
+input {
+  outline: white;
+  border: none;
+  width: 77%;
+  background-color: #24292f;
+  color: #ffffff;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+ }
+#search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:  #24292f;;
+  width: 25%;
+  border-radius: 5px;
+  height: 1.7rem;
+  border: 1px #d0d7de solid;
+  cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+#img1 {
+  border-radius: 50%;
+}
+
+/* nav end*/
+
+
+/* num section*/
+.num-section {
+  display: flex;
+  padding: 40px 80px;
+  margin-bottom: 25px;
+}
+
+.aside {
+  display: flex;
+  width: 30%;
+}
+ 
+.follow{
+    display: flex;
+    gap: 1.5rem;
+    padding: 5px;
+}
+
+.picture img {
+  width: 100%;
+  height: 18rem;
+  border-radius: 50%;
+  margin-top: -5rem;
+}
+
+.p-icon {
+  margin-left: 5px;
+}
+#h4 {
+  font-size: large;
+  color: #00000052;
+}
+
+.right {
+  flex-grow: 1;
+}
+
+.one{
+    display: flex;
+}
+
+.repo-headers{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.4rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 47%;
+    margin-top: 1rem;
+}
+
+.card p{
+    margin-bottom: 1rem;
+}
+.type-language{
+  display: flex;
+  align-items: baseline;
+}
+
+.sty{
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: red;
+}
+
+/*section-num end*/
+
+
+/*footer start*/
+footer {
+    margin-top: 6rem;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    gap: 5rem;
+  
+  padding-top:3rem;
+ 
+}
+.footer-logo{
+    gap: .5rem;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+
+.card{
+  width: 80%;
+}
+.cards{
+  justify-content: center;
+}
+
+.picture img{
+  margin: 0;
+}
+.nav-ul {
+  width: 73%;
+}
+footer ul{
+  width: 73%;
+}
+
+footer{
+  gap: 2rem;
+}
+.picture img {
+  width: 13rem;
+  height: 13rem;
+
+}
+ul.second{
+  margin-left: 6%;
+  width: 85%
+}
+.repo-headers {
+  display: flex;
+  justify-content: center;
+  gap: 9.5rem;
+}
+#h4{
+  margin-left: 3rem;
+}
+}
+button{
+  padding: 0.3rem;
+    width: 12rem;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+  .cards{
+    margin-top: 22rem;
+    
+  }
+  .card{
+    width: 100%;
+  }
+
+  .picture img{
+    margin-top: 5rem;
+    margin-left: 0rem;
+    width: 12rem;
+    height: 12rem;
+  }
+  footer{
+    display: none;
+  }
+  .picture{
+    margin-left: 10rem;
+  }
+  .num-section{
+    margin-left: -5rem;
+    padding: 25px 30px;
+  }
+  
+  ul.second{
+    display: none;
+  }
+  .nav-ul{
+    display: none;
+  }
+  .nav-list{
+    justify-content: center;
+  }
+  #search{
+    width: 80%;
+  }
+  .aside {
+    display: flex;
+    width: 21%;
+}
+.octicon-octicon{
+  display: none;
+}
+}
+
+
